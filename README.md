@@ -1,14 +1,11 @@
-Chatty
+Logger
 ======
 
-Chatty is a Twitch Chat Client for Desktop written in Java featuring many
+Logger is a Twitch Chat Client for Desktop written in Java featuring many
 Twitch specific features.
 
-* Website: https://chatty.github.io
-* E-Mail: chattyclient@gmail.com
-* Twitter: @ChattyClient (https://twitter.com/ChattyClient)
-* YouTube: https://www.youtube.com/user/chattyclient
-* Discord: https://discord.gg/WTuqGeJ
+* YouTube: https://www.youtube.com/@batuhansaygili
+* Discord: https://discord.gg/badu
 
 I learned about most of the Java techniques and APIs used in this during
 development, so many things won't be designed ideally. I also never
@@ -18,13 +15,13 @@ didn't adhere to some license correctly, please tell me.
 Download
 ========
 
-Go to the [website](https://chatty.github.io) for ready to use downloads
+Go to the [website]() for ready to use downloads
 and more information on the features.
 
 Contributions
 =============
 
-Contributions to Chatty under the terms of the GPLv3 License (or compatible) are
+Contributions to Logger under the terms of the GPLv3 License (or compatible) are
 welcome.
 
 If you're contributing code that you didn't write yourself, make sure to adhere
@@ -39,7 +36,7 @@ chance of being added.
 License Information
 ===================
 
-Chatty, as a whole, is released under the GPLv3 or later (see included
+Logger, as a whole, is released under the GPLv3 or later (see included
 `LICENSE` file).
 
     Copyright (C) 2017-2022  tduva and contributors
@@ -57,7 +54,7 @@ Chatty, as a whole, is released under the GPLv3 or later (see included
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Partly based on source code (most files located in the `src/chatty/` directory
+Partly based on source code (most files located in the `src/Logger/` directory
 and subdirectories) licensed under the MIT license.
 
     Copyright (c) 2014-2017  tduva and contributors
@@ -135,7 +132,7 @@ External Libraries
     (see <https://github.com/tduva/WebPDecoderJN/blob/main/COPYING>)
   * Requires JNA
 
-* Additional external/modified libraries integrated under `src/chatty/` have license/source
+* Additional external/modified libraries integrated under `src/Logger/` have license/source
   information in the file header
 
 Images / Other
@@ -221,7 +218,7 @@ The project is compiled using Gradle. Once you've checked it out, you can run
 `gradlew build` to compile and run the tests, and `gradlew release` to package
 the release artifacts.
 
-If you modified Chatty you should set your own client id in `Chatty.java`. You
+If you modified Logger you should set your own client id in `Logger.java`. You
 may also want to disable the Version Checker.
 
 Main release tasks
@@ -242,8 +239,8 @@ Build parameters
     specify this one, it will use jpackage instead of javapackager)
   * `mtPath` - Path to Microsoft's `mt.exe` (see e.g.
     <https://stackoverflow.com/questions/54462568/how-to-install-just-mt-exe>),
-    used to add `assets-bundle/Chatty.exe.manifest` to the `Chatty.exe`/
-    `ChattyPortable.exe` (optional)
+    used to add `assets-bundle/Logger.exe.manifest` to the `Logger.exe`/
+    `LoggerPortable.exe` (optional)
 * `innosetupPath` - Path to InnoSetup's `iscc.exe` (required for the Windows
   installer tasks)
 
